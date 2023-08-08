@@ -1,0 +1,35 @@
+/* 상단 부분의 배경 색상을 하얀색으로 설정합니다 */
+.react-datepicker__header {
+  background-color: white;
+}
+/* 년도와 월을 숨깁니다 */
+.react-datepicker__current-month {
+  display: none;
+}
+
+.react-datepicker__year-select,
+.react-datepicker__month-select {
+  width: 70px; /* 원하는 크기로 조정합니다 */
+  font-size: 14px; /* 원하는 폰트 크기로 조정합니다 */
+}
+.react-datepicker__day {
+  border-radius: 16px;
+}
+
+.react-datepicker__day:hover {
+  background-color: #dbe1fd;
+  border-radius: 16px;
+}
+.react-datepicker__day--selected {
+  background-color: #024eee;
+  border-radius: 16px;
+  color: white; /* 선택된 버튼의 텍스트 색상도 변경 */
+}
+
+.react-datepicker__input-container input {
+  width: 160px;
+  height: 34px;
+  margin-left: 180px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+}
